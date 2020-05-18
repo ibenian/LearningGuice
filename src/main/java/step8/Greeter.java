@@ -2,7 +2,6 @@ package step8;
 
 import com.google.inject.Inject;
 import com.google.inject.name.Named;
-import com.google.inject.name.Names;
 
 /**
  * Created by ibenian on 3/10/17.

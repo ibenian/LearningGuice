@@ -1,7 +1,5 @@
 package step14;
 
-import com.google.inject.Singleton;
-
 /**
  * Created by ibenian on 3/10/17.
  */

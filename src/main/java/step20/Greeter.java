@@ -1,7 +1,5 @@
 package step20;
 
-import com.google.inject.Inject;
-
 /**
  * Created by ibenian on 16/5/20.
  */
