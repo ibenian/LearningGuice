@@ -1,7 +1,6 @@
 package step3;
 
 import com.google.inject.Guice;
-import com.google.inject.Injector;
 
 /**
  * Created by ibenian on 3/10/17.
