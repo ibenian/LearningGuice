@@ -20,6 +20,7 @@ public class DisplayModule implements Module {
     @Named("displayers")
     Displayer loggerDisplayer() {
         // Because we crate it manually here, LoggerDisplayer won't have anyhting auto-injected.
+        // Step26 shows how to use Multibinder to bind to classes inside configure() method.
         return new LoggerDisplayer();
     }
 }
