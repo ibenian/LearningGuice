@@ -8,6 +8,8 @@ import com.google.inject.Inject;
 public class Greeter {
     private Displayer displayer;
 
+    // It is possible to have a method with muliple injectable parameters.
+    // The method will be called at injection time.
     @Inject
     void setDisplayer(Displayer displayer) {
         this.displayer = displayer;
