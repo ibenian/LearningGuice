@@ -1,7 +1,7 @@
 package step27;
 
-import java.util.logging.Logger;
-import com.google.inject.Inject;
+// import java.util.logging.Logger;
+// import com.google.inject.Inject;
 
 public class LoggerDisplayer implements Displayer {
     // @Inject
