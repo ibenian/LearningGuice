@@ -76,7 +76,7 @@ Binding constant values of primitive types injectable like other objects.
 * **Step24 - Delayed Injection** \
 Injecting `Provider<T>` instead instead of `T` to instantiate the classes on-demand rather than at construction.
 
-* **Step25 - Assisted injection** \
+* **Step25 - Assisted Injection** \
 Using `@Assisted` annotation to auto-inject custom factory arguments into objects. 
 
 * **Step26 - Set Multibinding** \
@@ -84,3 +84,6 @@ Using `Multibinder` to add multiple bindings to a named Set.  The bound objects 
 
 * **Step27 - Declarative Set Multibinding** \
 Using `@ProvidesIntoSet` on providers to inject multiple instances into a set.  This is similar to Step26 which does the same thing using `Multibinder`.
+
+* **Step28 - Factory Injection on a Provider** \
+Injecting a factory on a provider method to reuse the factory and do additional work.  This method makes it possible to implement both a custom factory and a provider that calls the factory without needing parameters.
